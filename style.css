@@ -1,0 +1,95 @@
+.mainstyle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #30c8c8 0%,
+    #29005b 100%
+  ) !important;
+}
+
+.mainmenu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:
+    #29005b 100% !important;
+  overflow: scroll;
+}
+
+.logostyle {
+  display: block;
+  margin-top: 2pc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textstylemain {
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 82.9%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.textstyle {
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 82.9%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.textstyle-into-title{
+  font-size: 24px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align:justify;
+}
+
+.text-about-people{
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.img {
+  border-radius: 150px;
+}
+
+.union {
+  position: fixed;
+  width: 304.53px;
+  height: 335.68px;
+  transform: rotate(15deg);
+  z-index: 1;
+}
+
+.blockmain {
+  animation:showLeft 4s;
+  width: 1260px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+  }
+
+@keyframes showLeft {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+   

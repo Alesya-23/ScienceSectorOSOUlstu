@@ -13,8 +13,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background:
-    #29005b 100% !important;
+  background: #29005b 100% !important;
   overflow: scroll;
 }
 
@@ -51,13 +50,13 @@
   color: #ffffff;
 }
 
-.textstyle-into-title{
-  font-size: 24px; 
+.textstyle-into-title {
+  font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align:justify;
+  text-align: justify;
 }
 
-.text-about-people{
+.text-about-people {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
@@ -77,12 +76,12 @@
 }
 
 .blockmain {
-  animation:showLeft 4s;
+  animation: showLeft 4s;
   width: 1260px;
   height: 200px;
   position: relative;
   z-index: 1;
-  }
+}
 
 @keyframes showLeft {
   from {
@@ -92,4 +91,3 @@
     left: 0;
   }
 }
-   
